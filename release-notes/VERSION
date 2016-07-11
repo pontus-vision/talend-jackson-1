@@ -9,6 +9,11 @@ One more patch release for 1.9...
 === History: ===
 ------------------------------------------------------------------------
 
+1.9.14 (not yet released)
+
+#1: JsonGenerator writeRawValue problem with surrogate UTF-8 characters
+ (reported by Martin S)
+
 1.9.13 (14-Jul-2013)
 
 * [JACKSON-887]: StackOverflow with parameterized sub-class field
