@@ -13,6 +13,7 @@ One more patch release for 1.9.
 #1: Set Secure Processing flag on DocumentBuilderFactory
 #4: JsonGenerator writeRawValue problem with surrogate UTF-8 characters
  (reported by Martin S)
+#5: Port deserialization security patch from jackson 2.x 
 * [databind#234]: Problems serializing types for deeply nested Maps.
 
 1.9.13 (14-Jul-2013)
