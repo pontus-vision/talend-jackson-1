@@ -15,6 +15,11 @@ One more patch release for 1.9.
  (reported by Martin S)
 #5: Port deserialization security patch from jackson 2.x 
 * [databind#234]: Problems serializing types for deeply nested Maps.
+* [databind#1599]: Jackson Deserializer security vulnerability [CVE-2017-7525]
+* [databind#1680]: Blacklist couple more types for deserialization
+* [databind#1735]: Missing type checks when using polymorphic type ids
+* [databind#1737]: Block more JDK types from polymorphic deserialization [CVE 2017-15095]
+* [databind#1855]: Blacklist for more serialization gadgets (dbcp/tomcat, spring)
 
 1.9.13 (14-Jul-2013)
 
